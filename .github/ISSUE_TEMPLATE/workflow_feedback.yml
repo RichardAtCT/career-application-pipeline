@@ -1,0 +1,39 @@
+name: Workflow feedback
+description: Share feedback from trying the pipeline with a real or synthetic CV
+title: "Workflow feedback: "
+labels: [feedback]
+body:
+  - type: textarea
+    id: setup
+    attributes:
+      label: Setup
+      description: Which agent/runtime did you use? Was the CV real or synthetic? Do not include private CV content.
+      placeholder: Claude Code / Codex / ChatGPT / Cursor / local agent / human-run workflow...
+    validations:
+      required: true
+  - type: textarea
+    id: worked
+    attributes:
+      label: What worked well?
+    validations:
+      required: false
+  - type: textarea
+    id: friction
+    attributes:
+      label: What was confusing or missing?
+    validations:
+      required: false
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Which artifacts were useful?
+      description: Profile, CV feedback, search criteria, tracker, source inventory, application pack, automation prompts, etc.
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I have removed private CV content, secrets, and personal contact data from this issue.
+          required: true

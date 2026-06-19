@@ -1,0 +1,44 @@
+name: Feature request
+description: Suggest an improvement or new workflow capability
+title: "Feature: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What user need or workflow gap would this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the feature, template, schema, script, or documentation change.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - CV ingestion/profile
+        - Search criteria/source inventory
+        - Tracker/scoring
+        - Application packs
+        - Automation
+        - Agent integration
+        - Privacy/safety
+        - Documentation
+        - Other
+    validations:
+      required: false
+  - type: checkboxes
+    id: principles
+    attributes:
+      label: Principles check
+      options:
+        - label: This can be implemented without requiring one specific AI vendor/runtime.
+          required: false
+        - label: This preserves approval-gated submissions/outreach.
+          required: false
