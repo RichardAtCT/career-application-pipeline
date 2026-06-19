@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SourceInventory",
+  "type": "object",
+  "required": ["sources"],
+  "properties": {
+    "sources": {"type": "object"}
+  },
+  "additionalProperties": true
+}

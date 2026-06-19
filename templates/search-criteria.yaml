@@ -1,0 +1,34 @@
+search_criteria:
+  target_geographies: []
+  remote_policy: unknown
+  compensation: unknown
+  seniority: unknown
+  work_authorization_constraints: unknown
+  global_dealbreakers: []
+
+scoring:
+  weights:
+    role_function_fit: 25
+    seniority_leadership_fit: 15
+    industry_domain_fit: 15
+    geography_remote_travel_fit: 15
+    skills_keyword_match: 10
+    company_quality_signal: 10
+    compensation_likelihood: 5
+    freshness_application_path: 5
+
+search_tracks:
+  - id: default
+    description: Initial track inferred from the CV; replace after onboarding.
+    priority: medium
+    target_titles: []
+    adjacent_titles: []
+    excluded_titles: []
+    target_industries: []
+    target_company_types: []
+    keywords_required: []
+    keywords_optional: []
+    keywords_excluded: []
+    must_have_signals: []
+    nice_to_have_signals: []
+    outreach_angles: []

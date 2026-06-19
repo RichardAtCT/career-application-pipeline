@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WorkspaceConfig",
+  "type": "object",
+  "required": ["workspace_version", "paths", "privacy"],
+  "properties": {
+    "workspace_version": {"type": ["integer", "string"]},
+    "paths": {"type": "object"},
+    "privacy": {"type": "object"}
+  },
+  "additionalProperties": true
+}

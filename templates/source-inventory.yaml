@@ -1,0 +1,29 @@
+sources:
+  direct_employers: []
+  ats:
+    - name: Greenhouse
+      bucket: ats
+      url: https://boards-api.greenhouse.io/
+      access_method: api
+      priority: medium
+      reliability: high
+      notes: Use known board tokens when available.
+    - name: Lever
+      bucket: ats
+      url: https://api.lever.co/v0/postings/
+      access_method: api
+      priority: medium
+      reliability: high
+      notes: Use known company handles when available.
+    - name: Ashby
+      bucket: ats
+      url: https://api.ashbyhq.com/posting-api/job-board/
+      access_method: api
+      priority: medium
+      reliability: high
+      notes: Use known board names when available.
+  job_boards: []
+  niche_boards: []
+  vc_portfolio_boards: []
+  search_backfill: []
+  recruiter_sources: []

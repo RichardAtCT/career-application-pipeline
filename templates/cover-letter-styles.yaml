@@ -1,0 +1,17 @@
+styles:
+  concise-direct:
+    description: Short, plain, specific. Best for commercial roles or busy recruiters.
+    target_length_words: 250-350
+    voice: confident, minimal, evidence-led
+  warm-narrative:
+    description: Slightly more personal and story-led. Best for mission-driven organisations.
+    target_length_words: 350-450
+    voice: warm, credible, reflective
+  executive-strategic:
+    description: Senior tone focused on scale, judgement, leadership and organisational outcomes.
+    target_length_words: 350-450
+    voice: strategic, polished, specific
+  sector-specific:
+    description: Adapt register to the sector, employer and supplied examples.
+    target_length_words: 300-500
+    voice: user-defined

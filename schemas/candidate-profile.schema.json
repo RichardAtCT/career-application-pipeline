@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CandidateProfile",
+  "type": "object",
+  "required": ["candidate"],
+  "properties": {
+    "candidate": {
+      "type": "object",
+      "required": ["name", "unknowns"],
+      "additionalProperties": true
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

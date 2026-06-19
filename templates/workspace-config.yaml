@@ -1,0 +1,31 @@
+workspace_version: 1
+candidate_id: unknown
+created_at: unknown
+updated_at: unknown
+
+paths:
+  cv_dir: cv
+  applications_dir: applications
+  roles_dir: roles
+  templates_dir: templates
+  logs_dir: logs
+  tracker: tracker.csv
+  source_inventory: source-inventory.yaml
+
+privacy:
+  local_first: true
+  require_approval_for_external_uploads: true
+  require_approval_for_outreach: true
+  require_approval_for_submission: true
+
+search:
+  default_thresholds:
+    priority: 85
+    strong: 75
+    possible: 60
+  report_policy: verified_roles_only
+
+application_packs:
+  generate_for_score_at_or_above: 85
+  draft_only: true
+  render_pdf_if_available: true

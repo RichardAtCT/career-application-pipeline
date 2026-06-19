@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SearchCriteria",
+  "type": "object",
+  "required": ["search_criteria", "search_tracks"],
+  "properties": {
+    "search_criteria": {"type": "object"},
+    "scoring": {"type": "object"},
+    "search_tracks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "target_titles"],
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

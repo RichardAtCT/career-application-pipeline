@@ -1,0 +1,20 @@
+# Privacy and Safety
+
+This workflow handles sensitive career data. The safe default is local-first and approval-gated.
+
+## Defaults
+
+- Store CV files and parsed profile in the user's chosen workspace.
+- Do not upload CVs to third-party sites without approval.
+- Do not send emails, messages, applications, forms, or recruiter outreach without approval.
+- Do not infer work authorization, compensation, citizenship, protected characteristics, or private contact details.
+- Do not invent metrics or achievements to make the CV stronger.
+- Keep provenance for generated application materials.
+
+## External services
+
+If a third-party tool is useful, ask before using it when private CV/profile data would be sent. Explain what data will be sent, to which service, for what purpose, and whether there is a local/manual alternative.
+
+## Job data
+
+A role should not be recommended unless it has a source URL. Aggregator snippets are not enough for high-confidence recommendations. Verify from a direct job page where possible.

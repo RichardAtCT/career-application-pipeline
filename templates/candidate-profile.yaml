@@ -1,0 +1,26 @@
+candidate:
+  name: unknown
+  location: unknown
+  current_title: unknown
+  current_company: unknown
+  years_experience: unknown
+  seniority_level: unknown
+  industries: []
+  functions: []
+  domains: []
+  hard_skills: []
+  soft_skills: []
+  leadership_scope: []
+  notable_achievements: []
+  education: []
+  certifications: []
+  languages: []
+  work_authorization: unknown
+  constraints: []
+  dealbreakers: []
+  unknowns: []
+
+source:
+  cv_source: unknown
+  extracted_at: unknown
+  parsing_notes: []

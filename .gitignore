@@ -1,0 +1,14 @@
+# Generated local workspaces
+job-search-workspace/
+demo-workspace/
+my-job-search/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
